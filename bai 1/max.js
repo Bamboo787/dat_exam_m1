@@ -1,6 +1,4 @@
-let a = 8;
-let b = 12;
-let c = -20;
+function equation(a,b,c){
 if (a == 0)
     if (b == 0)
         if (c == 0) {
@@ -24,3 +22,5 @@ else {
         console.log(`phuong trinh co 2 nghiem: x1 = ${(-b + Math.sqrt(delta)) / (2 * a)}; x2 = ${(-b - Math.sqrt(delta)) / (2 * a)}`)
     }
 }
+}
+equation(8,12,-20);
